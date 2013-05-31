@@ -1,0 +1,10 @@
+{
+  "name": "inline-svg.jquery.js",
+  "version": "1.1.0",
+  "repository": "git://github.com/jswinarton/inline-svg.jquery.coffee.git",
+  "author": "Jeremy Swinarton",
+  "dependencies": {
+    "coffee-script": "~1.6.2",
+    "uglify-js": "~2.3.6"
+  }
+}

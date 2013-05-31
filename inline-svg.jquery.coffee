@@ -1,7 +1,8 @@
-$ ->
+$.fn.inlineSvg = ->
 
-    $('img[src$=".svg"]').each ->
-        $img = jQuery(this)
+    $(@).each ->
+
+        $img = jQuery(@)
         imgID = $img.attr("id")
         imgClass = $img.attr("class")
         imgURL = $img.attr("src")
